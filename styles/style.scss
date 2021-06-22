@@ -1,0 +1,50 @@
+@import "global";
+@import "mian-container";
+
+@media screen and (max-width: 1120px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem 2rem;
+  }
+  .faq-container {
+    background: #ffffff url("../images/bg-pattern-mobile.svg") no-repeat top;
+    background-position: top/center;
+    flex-direction: column;
+    padding: 5rem 2rem;
+    overflow: unset;
+  }
+
+  .girl-illustration {
+    left: -15px;
+    top: -190px;
+    .desktop-woman {
+      display: none;
+    }
+
+    .mobile-woman {
+      display: block;
+    }
+  }
+
+  .faq-accordin {
+    h1 {
+      text-align: center;
+    }
+  }
+
+  .box-illus {
+    display: none;
+  }
+}
+
+.attribution {
+  padding: 3rem 0rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #ffffff;
+}

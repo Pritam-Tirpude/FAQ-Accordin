@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  min-height: 100vh;
+  font-size: 1rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background: linear-gradient(to bottom, #af67e9, #6565e7);
+}
+
+p {
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #787887;
+}
+
+main {
+  position: relative;
+  padding: 5rem 10rem;
+}
+
+.faq-container {
+  background: #ffffff url("../images/bg-pattern-desktop.svg") no-repeat;
+  background-position: -560px -280px;
+  border-radius: 2rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 14px 50px, rgba(0, 0, 0, 0.3) 0px 10px 50px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 14px 50px, rgba(0, 0, 0, 0.3) 0px 10px 50px;
+  padding: 5rem 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.girl-illustration {
+  position: relative;
+  left: -170px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+}
+
+.girl-illustration .mobile-woman {
+  display: none;
+}
+
+.faq-accordin {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+}
+
+.faq-accordin h1 {
+  color: #4a4b5e;
+  font-size: 2rem;
+}
+
+.faq-accordin .accordin {
+  margin-top: 1rem;
+}
+
+.faq-accordin .accordin .question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.faq-accordin .accordin .question h5 {
+  color: #787887;
+  font-weight: lighter;
+}
+
+.faq-accordin .accordin .question h5:hover {
+  color: #f47c57;
+}
+
+.faq-accordin .accordin .question h5.selected {
+  color: #1d1e35;
+  font-weight: bold;
+}
+
+.faq-accordin .accordin .answer {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out;
+}
+
+.faq-accordin .accordin .line {
+  margin-top: 1rem;
+  width: 100%;
+  height: 1px;
+  background: #e7e7e9;
+}
+
+.box-illus {
+  position: absolute;
+  top: 300px;
+  left: 70px;
+}
+
+@media screen and (max-width: 1120px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10rem 2rem;
+  }
+  .faq-container {
+    background: #ffffff url("../images/bg-pattern-mobile.svg") no-repeat top;
+    background-position: top/center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 5rem 2rem;
+    overflow: unset;
+  }
+  .girl-illustration {
+    left: -15px;
+    top: -190px;
+  }
+  .girl-illustration .desktop-woman {
+    display: none;
+  }
+  .girl-illustration .mobile-woman {
+    display: block;
+  }
+  .faq-accordin h1 {
+    text-align: center;
+  }
+  .box-illus {
+    display: none;
+  }
+}
+
+.attribution {
+  padding: 3rem 0rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

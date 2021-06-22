@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$primary_vary_dark_desaturated_blue: hsl(238, 29%, 16%);
+$primary_soft_red: hsl(14, 88%, 65%);
+$gradient_soft_violet: hsl(273, 75%, 66%);
+$gradient_soft_blue: hsl(240, 73%, 65%);
+$neutral_text_grayish_blue: hsl(237, 12%, 33%);
+$neutral_text_dark_grayish_blue: hsl(240, 6%, 50%);
+$divider_line_color: hsl(240, 5%, 91%);
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  min-height: 100vh;
+  font-size: 1rem;
+  background: linear-gradient(
+    to bottom,
+    $gradient_soft_violet,
+    $gradient_soft_blue
+  );
+}
+
+p {
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: $neutral_text_dark_grayish_blue;
+}

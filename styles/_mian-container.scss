@@ -1,0 +1,78 @@
+main {
+  position: relative;
+  padding: 5rem 10rem;
+}
+.faq-container {
+  background: #ffffff url("../images/bg-pattern-desktop.svg") no-repeat;
+  background-position: -560px -280px;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 14px 50px, rgba(0, 0, 0, 0.3) 0px 10px 50px;
+  padding: 5rem 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.girl-illustration {
+  position: relative;
+  left: -170px;
+  flex: 1 0 50%;
+
+  .mobile-woman {
+    display: none;
+  }
+}
+
+.faq-accordin {
+  flex: 1 0 50%;
+
+  h1 {
+    color: $neutral_text_grayish_blue;
+    font-size: 2rem;
+  }
+
+  .accordin {
+    margin-top: 1rem;
+
+    .question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+
+      h5 {
+        color: $neutral_text_dark_grayish_blue;
+        font-weight: lighter;
+
+        &:hover {
+          color: $primary_soft_red;
+        }
+      }
+
+      h5.selected {
+        color: $primary_vary_dark_desaturated_blue;
+        font-weight: bold;
+      }
+    }
+
+    .answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+    .line {
+      margin-top: 1rem;
+      width: 100%;
+      height: 1px;
+      background: $divider_line_color;
+    }
+  }
+}
+
+.box-illus {
+  position: absolute;
+  top: 300px;
+  left: 70px;
+}
