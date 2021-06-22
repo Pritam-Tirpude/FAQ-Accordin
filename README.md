@@ -39,8 +39,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Launch Countdown Page Solution](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-/hub/html5-css3-sass-flex-javascript-gXbJhVSJp)
-- Live Site URL: [Live Site](https://launch-countdown-site.netlify.app/)
+- Solution URL: [FAQ Accordin Solution](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/hub/html5-css3-sass-flex-javascript-c81lyLu2z)
+- Live Site URL: [Live Site](https://faq-accordin-site.netlify.app/)
 
 ## My process
 
